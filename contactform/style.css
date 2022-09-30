@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+   font-size: 20px; 
+   width: 500px;
+   background-color: lightgrey;
+   border-left: 4px solid red;
+   padding-left: 10px;
+   margin: 20px auto;
+}
+
+form {
+    width: 500px;
+    background-color: aliceblue;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+div:last-child {
+    margin-bottom: 0;
+}
+
+div label {
+    color: gray;
+}
+
+.text,.dropdown,textarea {
+    color: gray;
+}
+
+.submit {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 5px;
+    border-bottom: 1px solid gray;
+}
